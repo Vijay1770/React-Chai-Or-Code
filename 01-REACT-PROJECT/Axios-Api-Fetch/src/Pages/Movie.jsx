@@ -29,4 +29,31 @@ export const Movie = () => {
       })}
     </ul>
   );
+
+//If we dont want to Create extra Card component then use the below code ...
+  // return (
+  //   <ul className="card-items">
+  //     {data.map((curEle) => {
+  //       const { Poster, imdbID, Title } = curEle; // Destructuring the current element
+
+  //       return (
+  //         <li key={imdbID} className="hero-container">
+  //           <div className="main-container">
+  //             <div className="poster-container">
+  //               <h3>{Title}</h3>
+  //               <img src={Poster} className="poster" alt={imdbID} />
+  //             </div>
+  //             <div className="ticket-container">
+  //               <div className="ticket__content">
+  //                 <a href={`/movie/${imdbID}`}>
+  //                   <button className="ticket__buy-btn">Watch now</button>
+  //                 </a>
+  //               </div>
+  //             </div>
+  //           </div>
+  //         </li>
+  //       );
+  //     })}
+  //   </ul>
+  // );
 };
