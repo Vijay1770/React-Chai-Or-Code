@@ -7,7 +7,7 @@ import {
 import "./App.css";
 import { Home } from "./PAGES/Home";
 import { About } from "./PAGES/About";
-import { Movie } from "./PAGES/movie";
+import { Movie } from "./PAGES/Movie";
 import { Contact } from "./PAGES/Contact";
 import { Connect } from "./PAGES/Connect";
 import { AppLayout } from "./components/AppLayout";
