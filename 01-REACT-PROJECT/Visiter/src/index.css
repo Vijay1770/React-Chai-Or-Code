@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F5F5F5;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.container{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+
+.btn{
+    background: white;
+    color: #212121;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn:hover{
+    background: rgb(13, 175, 121);
+    color: white;
+}
+
+/* .arrow{
+  padding-top:7px;
+
+} */

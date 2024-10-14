@@ -1,6 +1,5 @@
 import { FaArrowRight } from "react-icons/fa6";
-
-
+import Slider from "../Layout/Slider";
  export const HeroSection=()=>{
     return (
         <main className="hero-section main">
@@ -18,10 +17,11 @@ import { FaArrowRight } from "react-icons/fa6";
                 Start Exploring <FaArrowRight />
               </button>
             </div>
-    
-            <div className="hero-image">
-                <img src="https://www.hindustantimes.com/ht-img/img/2023/03/02/550x309/Eiffel-Tower-in-Paris_1674808656074_1677767621855_1677767621855.jpg" />
-            </div>
+            
+            <Slider className="slider"></Slider>
+            {/* { <div >
+                {<img src="https://www.hindustantimes.com/ht-img/img/2023/03/02/550x309/Eiffel-Tower-in-Paris_1674808656074_1677767621855_1677767621855.jpg" /> }
+                </div> } */}
           </div>
         </main>
       );
