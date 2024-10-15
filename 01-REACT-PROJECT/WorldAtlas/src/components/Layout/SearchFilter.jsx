@@ -16,6 +16,7 @@ export const SearchFilter = ({
     setFilter(event.target.value);
   };
 
+  //Sort the Api data according to Ascending and Descending Order...
   const sortCountries = (value) => {
     const sortCountry = [...countries].sort((a, b) => {
       return value === "asc"
